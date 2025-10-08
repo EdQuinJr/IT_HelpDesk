@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Submit IT Issue">71f4605c8364b2105d6894b6feaad33e</catalog_item>
+        <catalog_variable>IO:c859f8d483e4b2105d6894b6feaad349</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 12:33:35</sys_created_on>
+        <sys_id>9e1c701c83e4b2105d6894b6feaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>issue_details</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_9e1c701c83e4b2105d6894b6feaad37d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 12:33:35</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Submit IT Issue UI policy">37fbfcd883e4b2105d6894b6feaad395</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>issue_details</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=9e1c701c83e4b2105d6894b6feaad37d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</application>
+        <file_path/>
+        <instance_id>70a900d01b96fdd439a54089bd4bcb0f</instance_id>
+        <instance_name>dev198543</instance_name>
+        <name>catalog_ui_policy_action_9e1c701c83e4b2105d6894b6feaad37d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Submit IT Issue">71f4605c8364b2105d6894b6feaad33e</catalog_item><catalog_variable>IO:c859f8d483e4b2105d6894b6feaad349</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-08 12:33:35</sys_created_on><sys_id>9e1c701c83e4b2105d6894b6feaad37d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>issue_details</sys_name><sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package><sys_policy/><sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope><sys_update_name>catalog_ui_policy_action_9e1c701c83e4b2105d6894b6feaad37d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-08 12:33:35</sys_updated_on><table/><ui_policy display_value="Submit IT Issue UI policy">37fbfcd883e4b2105d6894b6feaad395</ui_policy><value/><value_action>ignore</value_action><variable>issue_details</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=9e1c701c83e4b2105d6894b6feaad37d"/></record_update>]]></payload>
+        <payload_hash>-2015267909</payload_hash>
+        <record_name>issue_details</record_name>
+        <reverted_from/>
+        <source>8b49ebc88320b2105d6894b6feaad391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 12:33:35</sys_created_on>
+        <sys_id>d61c701c83e4b2105d6894b6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199c3d00c6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 12:33:35</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>9a1c701c30e4b21067a040f5b8247281</update_guid>
+        <update_guid_history>9a1c701c30e4b21067a040f5b8247281:-2015267909</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="issue_details">a13fbc108328b2105d6894b6feaad325</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 12:47:11</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>1472b753c4fc45008d1c73081428c104</sys_id>
+        <sys_metadata>9e1c701c83e4b2105d6894b6feaad37d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>issue_details</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_scope_delete display_value="">2deee8c0dbd94c5689898657ffe5f544</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_9e1c701c83e4b2105d6894b6feaad37d</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_9e1c701c83e4b2105d6894b6feaad37d">d61c701c83e4b2105d6894b6feaad382</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 12:47:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

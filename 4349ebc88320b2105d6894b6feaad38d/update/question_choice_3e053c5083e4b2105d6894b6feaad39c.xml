@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
-        <misc>0</misc>
         <order>100</order>
         <published_ref/>
         <question display_value="What type of issue are you reporting?">dbb3341083e4b2105d6894b6feaad33b</question>
-        <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-08 12:04:33</sys_created_on>
