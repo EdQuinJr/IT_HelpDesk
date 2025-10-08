@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="How urgent is the issue ?">0da6f01483e4b2105d6894b6feaad35d</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 12:12:29</sys_created_on>
+        <sys_id>3b37bc9083e4b2105d6894b6feaad365</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Medium</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name>question_choice_3b37bc9083e4b2105d6894b6feaad365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 12:13:05</sys_updated_on>
+        <text>Medium</text>
+        <value>2</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3b37bc9083e4b2105d6894b6feaad365"/>
+</record_update>
