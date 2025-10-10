@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Submit IT Issue">71f4605c8364b2105d6894b6feaad33e</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 06:05:08</sys_created_on>
+        <sys_id>6356f978836032105d6894b6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit IT Issue.Any User</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_6356f978836032105d6894b6feaad3cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 06:05:08</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</application>
+        <file_path/>
+        <instance_id>70a900d01b96fdd439a54089bd4bcb0f</instance_id>
+        <instance_name>dev198543</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_6356f978836032105d6894b6feaad3cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Submit IT Issue">71f4605c8364b2105d6894b6feaad33e</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-10 06:05:08</sys_created_on><sys_id>6356f978836032105d6894b6feaad3cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit IT Issue.Any User</sys_name><sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package><sys_policy/><sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_6356f978836032105d6894b6feaad3cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-10 06:05:08</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>913170633</payload_hash>
+        <record_name>Submit IT Issue.Any User</record_name>
+        <reverted_from/>
+        <source>588ba978832032105d6894b6feaad30e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 06:05:09</sys_created_on>
+        <sys_id>7756f978836032105d6894b6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199ccb922540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 06:05:09</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>2b56f9782b603210b4ae14fdae6e31d0</update_guid>
+        <update_guid_history>2b56f9782b603210b4ae14fdae6e31d0:913170633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Submit IT Issue.Any User">e9767d78836032105d6894b6feaad3c9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 06:05:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>75ca89c7aac94c1e95ecd79c3907cc51</sys_id>
+        <sys_metadata>6356f978836032105d6894b6feaad3cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit IT Issue.Any User</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_scope_delete display_value="">2deee8c0dbd94c5689898657ffe5f544</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_6356f978836032105d6894b6feaad3cd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_6356f978836032105d6894b6feaad3cd">7756f978836032105d6894b6feaad3d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 06:05:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
