@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=182351000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>To Create Incident from Submit IT Issue</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create_incident_from_submit_it_issue</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master_snapshot>437a73b8836c32105d6894b6feaad3ff</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create Incident from Submit IT Issue</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>537ab3b8836c32105d6894b6feaad33d</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 13:03:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33d205548328b2105d6894b6feaad323</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Create Incident from Submit IT Issue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name>sys_hub_flow_33d205548328b2105d6894b6feaad323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:09:57</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-10-10 08:53:57">782df7bc836c32105d6894b6feaad343</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=33d205548328b2105d6894b6feaad323"/>
+    <sys_variable_value action="DELETE" query="document_key=33d205548328b2105d6894b6feaad323"/>
+    <sys_flow_catalog_trigger action="DELETE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>537ab3b8836c32105d6894b6feaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:23</sys_updated_on>
+        <trigger_definition/>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=33d205548328b2105d6894b6feaad323"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=33d205548328b2105d6894b6feaad323^sys_idNOT IN5aec73bc836c32105d6894b6feaad3ae"/>
+    <sys_hub_flow_stage action="DELETE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Create Incident from Submit IT Issue">33d205548328b2105d6894b6feaad323</flow>
+        <label>SF - Create Incident from Catalog Item</label>
+        <order>0</order>
+        <stage_id>47b33370836c32105d6894b6feaad3dc</stage_id>
+        <states>{}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:52:58</sys_created_on>
+        <sys_id>5aec73bc836c32105d6894b6feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:52:58</sys_updated_on>
+        <type>subflow</type>
+        <value>edea1fb1-d6ca-454a-8584-d58ba047e27e</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="DELETE" query="id=33d205548328b2105d6894b6feaad323^sys_idNOT INfbd241948328b2105d6894b6feaad3bf"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>33d205548328b2105d6894b6feaad323</id>
+        <name>Create Incident from Submit IT Issue</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 13:03:11</sys_created_on>
+        <sys_id>fbd241948328b2105d6894b6feaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 13:03:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=fbd241948328b2105d6894b6feaad3bf"/>
+    <sys_hub_flow_input action="DELETE" query="model=33d205548328b2105d6894b6feaad323^sys_idNOT IN3a7a73b8836c32105d6894b6feaad393,b61e2d7c832032105d6894b6feaad307"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Incident from Submit IT Issue">33d205548328b2105d6894b6feaad323</model>
+        <model_id>33d205548328b2105d6894b6feaad323</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:21</sys_created_on>
+        <sys_id>3a7a73b8836c32105d6894b6feaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=3a7a73b8836c32105d6894b6feaad393"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create Incident from Submit IT Issue">33d205548328b2105d6894b6feaad323</model>
+        <model_id>33d205548328b2105d6894b6feaad323</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 05:29:02</sys_created_on>
+        <sys_id>b61e2d7c832032105d6894b6feaad307</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=b61e2d7c832032105d6894b6feaad307"/>
+    <sys_hub_flow_output action="DELETE" query="model=33d205548328b2105d6894b6feaad323"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=33d205548328b2105d6894b6feaad323"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=33d205548328b2105d6894b6feaad323^sys_idNOT IN981d77bc836c32105d6894b6feaad3d0"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Incident from Submit IT Issue">33d205548328b2105d6894b6feaad323</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:53:39</sys_created_on>
+        <sys_id>981d77bc836c32105d6894b6feaad3d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:53:43</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61UXW/aMBT9K8hPm8RDgLUM3iYmJCS2SqXbS1VFF/sGrDp25g9ahvrf50uckG7RNKl7in1zP8495yT3J6Zgi4rN2W3Qg6UyT4OVZkMmtUerQd0dK4wv+d5IjjFeH9bSeTa/P7HiO6hACYWxuLMmaBGTinWnZ0E9ZXy+yliVsKM6Om9QIfco2LwA5TBGvrnu7Yt0TupdCrwMO2O3wB//PvaSMXgnsICg/Ps3AngYshK0AG/s8ZJkTXmHZaXAYxs0VqBl81GWDdmBIG+ObiXqqRpKmm+DzglrLon2Qx+dQrrY9tjsfFZBKmFRRw0imAps7OVp0qkVbi31Y1+ypPHX2Szj0/FsOh1nk0mWFVfbghecTz+OsuvR1SxW9duiF7T/zSN0b6RYNMEuFfjsUYsOw3/SaRHEjVaXwD4uVu9TwrOTP+PEDxnlFRh344mY9pon0pLCn8HDxtvAfbAth4TMnW2s/t04hz7npeUy8mZfr1dy9mrc0EPmStMW/x/g6M0AxwSwpu6m8tJEV7EJaQ5bRTXu6GpnWOSxJPdW7naxMBYZFUr9tc9ACX3H4MFFBbEil5DszTe22Zun20bipdRnSOmlMhxUewMfJ2+DJ/5ODMQBYgVZP5oA2cuQgC4UOJcA1d7JfwTqwc6Y0vT8vCOVJEstJar0DTtuZeU/cS8P2P4dfgG4kuw8VAUAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=33d205548328b2105d6894b6feaad323"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=33d205548328b2105d6894b6feaad323^sys_idNOT IN5bfcf3bc836c32105d6894b6feaad391"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Incident from Submit IT Issue">33d205548328b2105d6894b6feaad323</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id>735c9ef9-197f-4d59-98a6-ed5cb4156c8d</parent_ui_id>
+        <show_stages>false</show_stages>
+        <subflow display_value="SF - Create Incident from Catalog Item">47b33370836c32105d6894b6feaad3dc</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/+2XUU/bMBDHv0uemyqxkzjmbQIhTdqGBIMXNEUX22ktOUlxHKBDfPfZTdqmW1tACntAvNXn2Pnf/+7Xa2+fPMm9Ey/AOcaYBClOGEZhEPMkpVGeFAKA44J6E6+CUtgnpcm4aJiWCyPrysbvQbVuw37kslkoWN5sI2wuFdei8k5uf028BWh7iRHaO3n6a+u1KhTkQu2TcUieWS5cvDFaVrN+/a2/5GodrDV3otDEE49GVFxYNQWoRky8EioOptbLTUQL4BeV2gbmsjJduiU8NvK3fV8aBIF7shA2Q9absVlmvVFduDgDA1ZKy0yrN77Vkomm84aLAlplToex7oGLLsvVEQO5Wp+uVVtWPzpHvM0Fg7q0jRUhFi5Vp71PpLia1w+Xa5Xnslq50m+qmoHarMBY7/LWOD1PXit/7rNVKFHa+7MSFgsbyRa6vperO63EcjpTdjEtVP3gaiZn1RSYy2dqDYfpuY2frcI3oKVL7ru9xh6e9K8bVrWV15W8a8VX10Y8JXHIWeSHmOR+xGnoU0oSP0woRChgMQ0j73niNcvmVEHTbI2yFcruWpdmZ1tvUNZ57I6sOuuLlXkvei+eJz1DMckxOdi9Id82qRZWamMEz6QRZWZ1ZJKPi9IrxKxROqTmBbFvASv+BOsjgJUiFlHbUD7kiPmRIIWfkyDyU0oQ55TwNMzfA6zi6Fgodr79Wz2zHi9HpullBYPBtJWwT9ZbuMGf3HwEbgIIUJqy0M6iHLuBFPtUhMiPKCGIQUwT20Ljc0Px0RmA933HF7UeF51XiPh3EHUqDojrAdr28i5Dl4N4j1E0GkYY7ULkpqFtXX0Aputua2SgBi/9D2AVVwI0m59LoVw9V0U5jtuwAu9O3LANdqBjGCjiFPm2/cCPopT5FIWpTyHJU4IDgnH8DtCxo6NCwM5UYGDEzPXgqMi9QsJgWg007BX2lnkVfs6rjzCvUB7zOIXIJ6HlJ4KA2J949v8UR0EsiiThHIUjovPrD/i+vFmGEAAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:53:18</sys_created_on>
+        <sys_id>5bfcf3bc836c32105d6894b6feaad391</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:53:55</sys_updated_on>
+        <ui_id>e608181e-ec80-47fc-9761-57c07301db7f</ui_id>
+        <updation_source/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=33d205548328b2105d6894b6feaad323^sys_idNOT IN1c2db7bc836c32105d6894b6feaad3ee,502db7bc836c32105d6894b6feaad3ee"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">d42db7bc836c32105d6894b6feaad3ee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Incident from Submit IT Issue">33d205548328b2105d6894b6feaad323</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:53:55</sys_created_on>
+        <sys_id>1c2db7bc836c32105d6894b6feaad3ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:53:55</sys_updated_on>
+        <ui_id>a46d5d75-4e4a-43f4-8a60-19093f0dfc6a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1ZX2/iOBD/Kqeoj5QLLRTKW9UeUk9tkQ52X45VZGyHetfY2cSh7VZ895txHIcARW2XXVU6JBQlM+Px/PnNTByeA52bJDfZWF9kmZipoP/vl0YgFNLg/jkQLOgHYdw9IR1y0pm2Tk/CVjg9a3ECN6fdXot22+dBI1BkzkEyijJDTJ5FEdAWROZIfJ4EC55mQqtJ0J8ErWY4CRqTgOp5IvnjcPqVUzOi93xOgA/CA6kfrjiaw9P+4Oricnw9vBuNL8afRoUA1YxbVdfK8BlPnTrGm0ex4JJFMaHcZIXwSOA2tyQZINEue55MJkEuxk8JvyFTLvGxj5dS3wQ1wiXlhEVayScvEROZcc+/F8p4lqcWmj1drCllPCa5NJENz+ZqWbPoEl0tWYQaCGLE01SnUZE5L2jSvBKcE8WI0elLduuUFQZZXmtl3WMkuZqZe89sh3hdwg9iPOdZRmZF7EcmFWpmQ+/IPxt9p3Gvwc/qOt8U+1vn7S8O/8nu8Ic+AZiBHbXRPDLg+aui/6YwXFi3/xjZwt5/MHLxSYnvOb9mldOExdPulB6fs7Pucfu8x457PRYe99gZPWWdXjvmbC3hdSQVPcWLUB3Z0GCT8jJrjaWU5ZLPuTLRnCQJICdKUr0Qq+mCttWcSSA1Y8hFxGwymkU4muApaVY5+kxSQaY2A8l72orKpdyGal337w3lfNZZA1StC9faK9wd0UV5Y8HzlSxIUxI1a65U/9HC8py+qkW8Yz0qyDjETIofBAM60OmcFMD9ezS8AxmYK0xkiSRPnw/jBS+H8XIYL4fxchgvh/Gyp/FC74VkKVfV+ac636DtKyebzWFUXw9nqYSksNTwFAy1vTpVRN4I9W2bcLmbrRC4vSy2q2+OWIMn1/cd4catuPZUm7Wg32oE/NFwxTjotjhoVDXjKQiZISDGExAjhS2Q5Uz8gB3bIcrFHKylzlX/GLkwFOT4CnAKKcipyVMfFS0ozwo/XYO4XKUVAsME81IsMYhtt1rLfK7uijgEXsFK1B3laiMdeQbW8QQjgC45/+LRvX74pzR/IJQNlmNKTYn0T8QAmKa5QUOfA1S6bATZU3YpSZZVJkEsou85rivMcTtGhTe4hKYiMdjuFtwpXzY2EOYA/htBdut33DDBQa2YcmtIG5VEB7STPQItPEBt71Bbh0mtzQHHmlz/gGPft+xshwmDa1aGYa3XbJnWwMc5jdbsBPIWU0si7LhsHHrm/xXIVlWALfJd6PT96SOBc0+9dp8APfTan4ZomehXfCcvgfAXotEdel74fO4AUbyMrwFiWBJLQGAW9wSJ3geHxJ4zX+8aPrCrhzqg149zwH/pIGdnznuPcOidNafK+/7fNRnrhq1el9LTM44o7XQ6p9NuOySsHTLGaAVHrtA0tvIu2tpsk7aR7nwh3dISX2FDWSmVERtWuQqZai05UWslMga7/hzYAv0lZfKBR3vsvN7ePEvuh+igO95WF640fJCowI+8Y6Rdl/9QIuMJgCHoKulBp9+w9ira8j+LSGX66xwAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">1c2db7bc836c32105d6894b6feaad3ed</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Incident from Submit IT Issue">33d205548328b2105d6894b6feaad323</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <order>0</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:53:55</sys_created_on>
+        <sys_id>502db7bc836c32105d6894b6feaad3ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:53:55</sys_updated_on>
+        <ui_id>735c9ef9-197f-4d59-98a6-ed5cb4156c8d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=33d205548328b2105d6894b6feaad323"/>
+    <sys_hub_flow_variable action="DELETE" query="model=33d205548328b2105d6894b6feaad323"/>
+    <sys_documentation action="DELETE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:21</sys_created_on>
+        <sys_id>367a73b8836c32105d6894b6feaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 05:29:02</sys_created_on>
+        <sys_id>7a1e2d7c832032105d6894b6feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 05:29:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_33d205548328b2105d6894b6feaad323"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>To Create Incident from Submit IT Issue</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>create_incident_from_submit_it_issue</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Create Incident from Submit IT Issue</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Incident from Submit IT Issue">33d205548328b2105d6894b6feaad323</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>437a73b8836c32105d6894b6feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:22</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_variable_value action="DELETE" query="document_key=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=437a73b8836c32105d6894b6feaad3ff^sys_idNOT IN4b7a73b8836c32105d6894b6feaad3ff"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>437a73b8836c32105d6894b6feaad3ff</id>
+        <name>Create Incident from Submit IT Issue</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:22</sys_created_on>
+        <sys_id>4b7a73b8836c32105d6894b6feaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=4b7a73b8836c32105d6894b6feaad3ff"/>
+    <sys_hub_flow_input action="DELETE" query="model=437a73b8836c32105d6894b6feaad3ff^sys_idNOT IN037ab3b8836c32105d6894b6feaad327,877ab3b8836c32105d6894b6feaad300"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Incident from Submit IT Issue">437a73b8836c32105d6894b6feaad3ff</model>
+        <model_id>437a73b8836c32105d6894b6feaad3ff</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:22</sys_created_on>
+        <sys_id>037ab3b8836c32105d6894b6feaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=037ab3b8836c32105d6894b6feaad327"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create Incident from Submit IT Issue">437a73b8836c32105d6894b6feaad3ff</model>
+        <model_id>437a73b8836c32105d6894b6feaad3ff</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:22</sys_created_on>
+        <sys_id>877ab3b8836c32105d6894b6feaad300</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=877ab3b8836c32105d6894b6feaad300"/>
+    <sys_hub_flow_output action="DELETE" query="model=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=437a73b8836c32105d6894b6feaad3ff^sys_idNOT INd77ab3b8836c32105d6894b6feaad332"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Incident from Submit IT Issue">437a73b8836c32105d6894b6feaad3ff</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:23</sys_created_on>
+        <sys_id>d77ab3b8836c32105d6894b6feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:23</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61TTWsbMRD9K0anFnyQ7SaufQuBgCFtIE5zCWXRSrNrUa20lbSbuCb/vTP7YW/SpQSSmzR6M/PmzdPDgRmRgmFrdlvZyZVxj5ONZVOmbQRvhbnbl4CPcue0BIy3h2sdIls/HFh2L0xFgFTIX7l3lVUIyq4HNTOqqe3khJh8UpCJysTPhN0UIqcKdN6CARlBsXUmTACM/AjD2zcdgrZ5F3ieDghkzsP/CbxEvKPtzykrhFUiOr8/gbwr7qAojYhwDDqvwLP1jPMpq4nodh82qu1qRUH9fWUTYphokr3upsGj0gGL7e9PEbnTRnmwqDxSKIXHCpHqH149RVxa0u/1sl+dpsbnfMXlcr5aLud8seA8O0szmUm5/Drj57OzFeLGDTFKN75yx3BeeIpg1UDGfzXzINSNNafADm3XzlqIp6D/YPEvnHAZ4HCy0+F4TTqNenmIRWh8ad5uwHrMwd0gnCw2VuuFl+oxC/ZSkFu6bpcfT3D2boJzIthKd1NG7dBCbEGrFamhnLAP7cI9SExJotd5jomY5ExV2O9jvujYD7xbBdwWlOQIWnH/abY793jbr/NK24ZS92icFOZ4ExE7p1Uk/Q5MqFpgBjk6euzx3Lgi+V1RRvN7+l5JMxEBgvS6jBcy6hqOX/kv1VCh4wEFAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=437a73b8836c32105d6894b6feaad3ff^sys_idNOT IN537ab3b8836c32105d6894b6feaad333"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE">
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Incident from Submit IT Issue">437a73b8836c32105d6894b6feaad3ff</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <show_stages>false</show_stages>
+        <subflow display_value="SF - Create Incident from Catalog Item">47b33370836c32105d6894b6feaad3dc</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/+2XTU/jMBCG/0vOTZXESRxzW4GQVtpdJFi4IBRNbKe15HyQOHws4r/vuEnbFCgUqXBA3OpJbL/zzjyd9vLBUcI5cHieEUKol5CYk8D3IhEnLMziXAIIIsGZOCUUEt9UJuVg5Kxq7jF4A7qzUfwoVFtruL9YR/hcadHI0jm4vJo4NTR4gpGNc/Dw5NGuEjRkUj/T8KIwc1/bYGsaVc6G9a9h+9kyWDXCyvEnjrwzshQSdeSgWzlxCigFGHvWMtJIECelXgfmqjR9ogXcteof3pd4nmffzCXmxgcbVst0sKgP50dgAKV03HTNyrFKcdn2rgiZQ6fN4TjWv3BSG1WV/RYDmV7urnRXlH96O5zVAaOKdC2KkLVN1WofEsnP5tXt6VLlsSoXrgwPdcVBr1Zg0LusM1bPg9Opv09s7iPPjJZaFnhjWkBdYyStm+pGLW5B0cV0pnExzXV1i+paNSunwG2GUywBTI8xfrQIX0CjbLq/8RjcbK87L9V1J3/aBgqySEQJhC71WeCG4FE3YTx0ReBFMo9jIQLfeZw47X17qKFt10ZhhdLrzqbZ2zYYlPYe2y28UbX5gaJu5ODF42RAxyOv9W3ONjoU01scZcu3V3p2UDGiZ1PGNnnvYSj4ZugrMCQSGvkCofEJzdxQMN9ljMauHzMIA49HzA8/gKHo1e/+PN9o0q6Zocd7nj47KBjxs5bwkqz3cEO+ufkK3HjgBUnCfUQmI5abyGXSxynEKA04RCzGFto/Nwy/9enWrvXJukEbiVJbI0WaV81+0dlBxBKdpyq2iBsAWvfyJkOno/iAUbg3jEiwCRFWLMXWbbbAdN4/2jNQo0s/Aaz8TELD58dKalvPRVG24jYuyiZx47J8CnScAAsE/tbD9gM3DBPussBPXAZxllDiUUKijxhW9NV+Fy/1tTKySG1Vldjz3HpbzHP4NtW8IfY90yz6nmZfYZolAQ8ZNpQLWcDdUNLczagX4t8pGgjBqEj8bI9gXf0HuZ/vmIYQAAA=</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:23</sys_created_on>
+        <sys_id>537ab3b8836c32105d6894b6feaad333</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:23</sys_updated_on>
+        <ui_id>edea1fb1-d6ca-454a-8584-d58ba047e27e</ui_id>
+        <updation_source/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_hub_flow_variable action="DELETE" query="model=437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_documentation action="DELETE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:22</sys_created_on>
+        <sys_id>177ab3b8836c32105d6894b6feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:22</sys_created_on>
+        <sys_id>c77ab3b8836c32105d6894b6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_437a73b8836c32105d6894b6feaad3ff"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>33d205548328b2105d6894b6feaad323</sys_id>
+        <latest_snapshot>437a73b8836c32105d6894b6feaad3ff</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch1-08-20-2025_09-08-2025_1328.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=33d205548328b2105d6894b6feaad323^sys_idNOT IN5b7ab3b8836c32105d6894b6feaad33d"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5b7ab3b8836c32105d6894b6feaad33d","name":"plan","plan_signature":null}}</plan>
+        <plan_id>33d205548328b2105d6894b6feaad323</plan_id>
+        <snapshot>68dbf73c836c32105d6894b6feaad39e</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 15:42:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b7ab3b8836c32105d6894b6feaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 15:42:23</sys_updated_on>
+        <trigger display_value="">537ab3b8836c32105d6894b6feaad33d</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=33d205548328b2105d6894b6feaad323"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</application>
+        <file_path/>
+        <instance_id>70a900d01b96fdd439a54089bd4bcb0f</instance_id>
+        <instance_name>dev198543</instance_name>
+        <name>sys_hub_flow_33d205548328b2105d6894b6feaad323</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=182351000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;To Create Incident from Submit IT Issue&lt;/description&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;create_incident_from_submit_it_issue&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;437a73b8836c32105d6894b6feaad3ff&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Create Incident from Submit IT Issue&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;537ab3b8836c32105d6894b6feaad33d&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-08 13:03:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;33d205548328b2105d6894b6feaad323&lt;/sys_id&gt;&lt;sys_mod_count&gt;41&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create Incident from Submit IT Issue&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_33d205548328b2105d6894b6feaad323&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 16:09:57&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;version_record display_value="Created 2025-10-10 08:53:57"&gt;782df7bc836c32105d6894b6feaad343&lt;/version_record&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_flow_catalog_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;catalog_item/&gt;&lt;name/&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;sys_class_name&gt;sys_flow_catalog_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;537ab3b8836c32105d6894b6feaad33d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:23&lt;/sys_updated_on&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_catalog_trigger&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=33d205548328b2105d6894b6feaad323^sys_idNOT IN5aec73bc836c32105d6894b6feaad3ae"/&gt;&lt;sys_hub_flow_stage action="INSERT_OR_UPDATE"&gt;&lt;always_show&gt;true&lt;/always_show&gt;&lt;ancestor_array_position&gt;0&lt;/ancestor_array_position&gt;&lt;ancestor_component_id/&gt;&lt;ancestor_stage_id/&gt;&lt;ancestral_if_else_logic/&gt;&lt;component_indexes/&gt;&lt;duration&gt;1970-01-01 00:00:00&lt;/duration&gt;&lt;flow display_value="Create Incident from Submit IT Issue"&gt;33d205548328b2105d6894b6feaad323&lt;/flow&gt;&lt;label&gt;SF - Create Incident from Catalog Item&lt;/label&gt;&lt;order&gt;0&lt;/order&gt;&lt;stage_id&gt;47b33370836c32105d6894b6feaad3dc&lt;/stage_id&gt;&lt;states&gt;{}&lt;/states&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:52:58&lt;/sys_created_on&gt;&lt;sys_id&gt;5aec73bc836c32105d6894b6feaad3ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:52:58&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;value&gt;edea1fb1-d6ca-454a-8584-d58ba047e27e&lt;/value&gt;&lt;/sys_hub_flow_stage&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=33d205548328b2105d6894b6feaad323^sys_idNOT INfbd241948328b2105d6894b6feaad3bf"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;33d205548328b2105d6894b6feaad323&lt;/id&gt;&lt;name&gt;Create Incident from Submit IT Issue&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-08 13:03:11&lt;/sys_created_on&gt;&lt;sys_id&gt;fbd241948328b2105d6894b6feaad3bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-08 13:03:11&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fbd241948328b2105d6894b6feaad3bf"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=33d205548328b2105d6894b6feaad323^sys_idNOT IN3a7a73b8836c32105d6894b6feaad393,b61e2d7c832032105d6894b6feaad307"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Create Incident from Submit IT Issue"&gt;33d205548328b2105d6894b6feaad323&lt;/model&gt;&lt;model_id&gt;33d205548328b2105d6894b6feaad323&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:21&lt;/sys_created_on&gt;&lt;sys_id&gt;3a7a73b8836c32105d6894b6feaad393&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3a7a73b8836c32105d6894b6feaad393"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;sc_req_item&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Create Incident from Submit IT Issue"&gt;33d205548328b2105d6894b6feaad323&lt;/model&gt;&lt;model_id&gt;33d205548328b2105d6894b6feaad323&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 05:29:02&lt;/sys_created_on&gt;&lt;sys_id&gt;b61e2d7c832032105d6894b6feaad307&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b61e2d7c832032105d6894b6feaad307"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=33d205548328b2105d6894b6feaad323^sys_idNOT IN981d77bc836c32105d6894b6feaad3d0"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Create Incident from Submit IT Issue"&gt;33d205548328b2105d6894b6feaad323&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Service Catalog&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:53:39&lt;/sys_created_on&gt;&lt;sys_id&gt;981d77bc836c32105d6894b6feaad3d0&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:53:43&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Service Catalog"&gt;c43a1011c36813002841b63b12d3ae15&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/61UXW/aMBT9K8hPm8RDgLUM3iYmJCS2SqXbS1VFF/sGrDp25g9ahvrf50uckG7RNKl7in1zP8495yT3J6Zgi4rN2W3Qg6UyT4OVZkMmtUerQd0dK4wv+d5IjjFeH9bSeTa/P7HiO6hACYWxuLMmaBGTinWnZ0E9ZXy+yliVsKM6Om9QIfco2LwA5TBGvrnu7Yt0TupdCrwMO2O3wB//PvaSMXgnsICg/Ps3AngYshK0AG/s8ZJkTXmHZaXAYxs0VqBl81GWDdmBIG+ObiXqqRpKmm+DzglrLon2Qx+dQrrY9tjsfFZBKmFRRw0imAps7OVp0qkVbi31Y1+ypPHX2Szj0/FsOh1nk0mWFVfbghecTz+OsuvR1SxW9duiF7T/zSN0b6RYNMEuFfjsUYsOw3/SaRHEjVaXwD4uVu9TwrOTP+PEDxnlFRh344mY9pon0pLCn8HDxtvAfbAth4TMnW2s/t04hz7npeUy8mZfr1dy9mrc0EPmStMW/x/g6M0AxwSwpu6m8tJEV7EJaQ5bRTXu6GpnWOSxJPdW7naxMBYZFUr9tc9ACX3H4MFFBbEil5DszTe22Zun20bipdRnSOmlMhxUewMfJ2+DJ/5ODMQBYgVZP5oA2cuQgC4UOJcA1d7JfwTqwc6Y0vT8vCOVJEstJar0DTtuZeU/cS8P2P4dfgG4kuw8VAUAAA==&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;service_catalog&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=33d205548328b2105d6894b6feaad323^sys_idNOT IN5bfcf3bc836c32105d6894b6feaad391"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Create Incident from Submit IT Issue"&gt;33d205548328b2105d6894b6feaad323&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id&gt;735c9ef9-197f-4d59-98a6-ed5cb4156c8d&lt;/parent_ui_id&gt;&lt;show_stages&gt;false&lt;/show_stages&gt;&lt;subflow display_value="SF - Create Incident from Catalog Item"&gt;47b33370836c32105d6894b6feaad3dc&lt;/subflow&gt;&lt;subflow_inputs&gt;H4sIAAAAAAAA/+2XUU/bMBDHv0uemyqxkzjmbQIhTdqGBIMXNEUX22ktOUlxHKBDfPfZTdqmW1tACntAvNXn2Pnf/+7Xa2+fPMm9Ey/AOcaYBClOGEZhEPMkpVGeFAKA44J6E6+CUtgnpcm4aJiWCyPrysbvQbVuw37kslkoWN5sI2wuFdei8k5uf028BWh7iRHaO3n6a+u1KhTkQu2TcUieWS5cvDFaVrN+/a2/5GodrDV3otDEE49GVFxYNQWoRky8EioOptbLTUQL4BeV2gbmsjJduiU8NvK3fV8aBIF7shA2Q9absVlmvVFduDgDA1ZKy0yrN77Vkomm84aLAlplToex7oGLLsvVEQO5Wp+uVVtWPzpHvM0Fg7q0jRUhFi5Vp71PpLia1w+Xa5Xnslq50m+qmoHarMBY7/LWOD1PXit/7rNVKFHa+7MSFgsbyRa6vperO63EcjpTdjEtVP3gaiZn1RSYy2dqDYfpuY2frcI3oKVL7ru9xh6e9K8bVrWV15W8a8VX10Y8JXHIWeSHmOR+xGnoU0oSP0woRChgMQ0j73niNcvmVEHTbI2yFcruWpdmZ1tvUNZ57I6sOuuLlXkvei+eJz1DMckxOdi9Id82qRZWamMEz6QRZWZ1ZJKPi9IrxKxROqTmBbFvASv+BOsjgJUiFlHbUD7kiPmRIIWfkyDyU0oQ55TwNMzfA6zi6Fgodr79Wz2zHi9HpullBYPBtJWwT9ZbuMGf3HwEbgIIUJqy0M6iHLuBFPtUhMiPKCGIQUwT20Ljc0Px0RmA933HF7UeF51XiPh3EHUqDojrAdr28i5Dl4N4j1E0GkYY7ULkpqFtXX0Aputua2SgBi/9D2AVVwI0m59LoVw9V0U5jtuwAu9O3LANdqBjGCjiFPm2/cCPopT5FIWpTyHJU4IDgnH8DtCxo6NCwM5UYGDEzPXgqMi9QsJgWg007BX2lnkVfs6rjzCvUB7zOIXIJ6HlJ4KA2J949v8UR0EsiiThHIUjovPrD/i+vFmGEAAA&lt;/subflow_inputs&gt;&lt;sys_class_name&gt;sys_hub_sub_flow_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:53:18&lt;/sys_created_on&gt;&lt;sys_id&gt;5bfcf3bc836c32105d6894b6feaad391&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:53:55&lt;/sys_updated_on&gt;&lt;ui_id&gt;e608181e-ec80-47fc-9761-57c07301db7f&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;wait_for_completion&gt;true&lt;/wait_for_completion&gt;&lt;/sys_hub_sub_flow_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=33d205548328b2105d6894b6feaad323^sys_idNOT IN1c2db7bc836c32105d6894b6feaad3ee,502db7bc836c32105d6894b6feaad3ee"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;d42db7bc836c32105d6894b6feaad3ee&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Create Incident from Submit IT Issue"&gt;33d205548328b2105d6894b6feaad323&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Top Level Catch"&gt;35d60003e6022010a5e40cdd1254dd23&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:53:55&lt;/sys_created_on&gt;&lt;sys_id&gt;1c2db7bc836c32105d6894b6feaad3ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:53:55&lt;/sys_updated_on&gt;&lt;ui_id&gt;a46d5d75-4e4a-43f4-8a60-19093f0dfc6a&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1ZX2/iOBD/Kqeoj5QLLRTKW9UeUk9tkQ52X45VZGyHetfY2cSh7VZ895txHIcARW2XXVU6JBQlM+Px/PnNTByeA52bJDfZWF9kmZipoP/vl0YgFNLg/jkQLOgHYdw9IR1y0pm2Tk/CVjg9a3ECN6fdXot22+dBI1BkzkEyijJDTJ5FEdAWROZIfJ4EC55mQqtJ0J8ErWY4CRqTgOp5IvnjcPqVUzOi93xOgA/CA6kfrjiaw9P+4Oricnw9vBuNL8afRoUA1YxbVdfK8BlPnTrGm0ex4JJFMaHcZIXwSOA2tyQZINEue55MJkEuxk8JvyFTLvGxj5dS3wQ1wiXlhEVayScvEROZcc+/F8p4lqcWmj1drCllPCa5NJENz+ZqWbPoEl0tWYQaCGLE01SnUZE5L2jSvBKcE8WI0elLduuUFQZZXmtl3WMkuZqZe89sh3hdwg9iPOdZRmZF7EcmFWpmQ+/IPxt9p3Gvwc/qOt8U+1vn7S8O/8nu8Ic+AZiBHbXRPDLg+aui/6YwXFi3/xjZwt5/MHLxSYnvOb9mldOExdPulB6fs7Pucfu8x457PRYe99gZPWWdXjvmbC3hdSQVPcWLUB3Z0GCT8jJrjaWU5ZLPuTLRnCQJICdKUr0Qq+mCttWcSSA1Y8hFxGwymkU4muApaVY5+kxSQaY2A8l72orKpdyGal337w3lfNZZA1StC9faK9wd0UV5Y8HzlSxIUxI1a65U/9HC8py+qkW8Yz0qyDjETIofBAM60OmcFMD9ezS8AxmYK0xkiSRPnw/jBS+H8XIYL4fxchgvh/Gyp/FC74VkKVfV+ac636DtKyebzWFUXw9nqYSksNTwFAy1vTpVRN4I9W2bcLmbrRC4vSy2q2+OWIMn1/cd4catuPZUm7Wg32oE/NFwxTjotjhoVDXjKQiZISDGExAjhS2Q5Uz8gB3bIcrFHKylzlX/GLkwFOT4CnAKKcipyVMfFS0ozwo/XYO4XKUVAsME81IsMYhtt1rLfK7uijgEXsFK1B3laiMdeQbW8QQjgC45/+LRvX74pzR/IJQNlmNKTYn0T8QAmKa5QUOfA1S6bATZU3YpSZZVJkEsou85rivMcTtGhTe4hKYiMdjuFtwpXzY2EOYA/htBdut33DDBQa2YcmtIG5VEB7STPQItPEBt71Bbh0mtzQHHmlz/gGPft+xshwmDa1aGYa3XbJnWwMc5jdbsBPIWU0si7LhsHHrm/xXIVlWALfJd6PT96SOBc0+9dp8APfTan4ZomehXfCcvgfAXotEdel74fO4AUbyMrwFiWBJLQGAW9wSJ3geHxJ4zX+8aPrCrhzqg149zwH/pIGdnznuPcOidNafK+/7fNRnrhq1el9LTM44o7XQ6p9NuOySsHTLGaAVHrtA0tvIu2tpsk7aR7nwh3dISX2FDWSmVERtWuQqZai05UWslMga7/hzYAv0lZfKBR3vsvN7ePEvuh+igO95WF640fJCowI+8Y6Rdl/9QIuMJgCHoKulBp9+w9ira8j+LSGX66xwAAA==&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;1c2db7bc836c32105d6894b6feaad3ed&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;display_text/&gt;&lt;flow display_value="Create Incident from Submit IT Issue"&gt;33d205548328b2105d6894b6feaad323&lt;/flow&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;logic_definition display_value="Top Level Try"&gt;e9060aa2c3013010ace8b740ad40dd51&lt;/logic_definition&gt;&lt;order&gt;0&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:53:55&lt;/sys_created_on&gt;&lt;sys_id&gt;502db7bc836c32105d6894b6feaad3ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:53:55&lt;/sys_updated_on&gt;&lt;ui_id&gt;735c9ef9-197f-4d59-98a6-ed5cb4156c8d&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=&lt;/values&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic_instance_v2&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:21&lt;/sys_created_on&gt;&lt;sys_id&gt;367a73b8836c32105d6894b6feaad396&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:21&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 05:29:02&lt;/sys_created_on&gt;&lt;sys_id&gt;7a1e2d7c832032105d6894b6feaad30b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 05:29:02&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_33d205548328b2105d6894b6feaad323"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description&gt;To Create Incident from Submit IT Issue&lt;/description&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;create_incident_from_submit_it_issue&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Create Incident from Submit IT Issue&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Create Incident from Submit IT Issue"&gt;33d205548328b2105d6894b6feaad323&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;437a73b8836c32105d6894b6feaad3ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:22&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=437a73b8836c32105d6894b6feaad3ff^sys_idNOT IN4b7a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;437a73b8836c32105d6894b6feaad3ff&lt;/id&gt;&lt;name&gt;Create Incident from Submit IT Issue&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:22&lt;/sys_created_on&gt;&lt;sys_id&gt;4b7a73b8836c32105d6894b6feaad3ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:22&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4b7a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=437a73b8836c32105d6894b6feaad3ff^sys_idNOT IN037ab3b8836c32105d6894b6feaad327,877ab3b8836c32105d6894b6feaad300"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Create Incident from Submit IT Issue"&gt;437a73b8836c32105d6894b6feaad3ff&lt;/model&gt;&lt;model_id&gt;437a73b8836c32105d6894b6feaad3ff&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:22&lt;/sys_created_on&gt;&lt;sys_id&gt;037ab3b8836c32105d6894b6feaad327&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=037ab3b8836c32105d6894b6feaad327"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;sc_req_item&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Create Incident from Submit IT Issue"&gt;437a73b8836c32105d6894b6feaad3ff&lt;/model&gt;&lt;model_id&gt;437a73b8836c32105d6894b6feaad3ff&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:22&lt;/sys_created_on&gt;&lt;sys_id&gt;877ab3b8836c32105d6894b6feaad300&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=877ab3b8836c32105d6894b6feaad300"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=437a73b8836c32105d6894b6feaad3ff^sys_idNOT INd77ab3b8836c32105d6894b6feaad332"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Create Incident from Submit IT Issue"&gt;437a73b8836c32105d6894b6feaad3ff&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Service Catalog&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:23&lt;/sys_created_on&gt;&lt;sys_id&gt;d77ab3b8836c32105d6894b6feaad332&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:23&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Service Catalog"&gt;c43a1011c36813002841b63b12d3ae15&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/61TTWsbMRD9K0anFnyQ7SaufQuBgCFtIE5zCWXRSrNrUa20lbSbuCb/vTP7YW/SpQSSmzR6M/PmzdPDgRmRgmFrdlvZyZVxj5ONZVOmbQRvhbnbl4CPcue0BIy3h2sdIls/HFh2L0xFgFTIX7l3lVUIyq4HNTOqqe3khJh8UpCJysTPhN0UIqcKdN6CARlBsXUmTACM/AjD2zcdgrZ5F3ieDghkzsP/CbxEvKPtzykrhFUiOr8/gbwr7qAojYhwDDqvwLP1jPMpq4nodh82qu1qRUH9fWUTYphokr3upsGj0gGL7e9PEbnTRnmwqDxSKIXHCpHqH149RVxa0u/1sl+dpsbnfMXlcr5aLud8seA8O0szmUm5/Drj57OzFeLGDTFKN75yx3BeeIpg1UDGfzXzINSNNafADm3XzlqIp6D/YPEvnHAZ4HCy0+F4TTqNenmIRWh8ad5uwHrMwd0gnCw2VuuFl+oxC/ZSkFu6bpcfT3D2boJzIthKd1NG7dBCbEGrFamhnLAP7cI9SExJotd5jomY5ExV2O9jvujYD7xbBdwWlOQIWnH/abY793jbr/NK24ZS92icFOZ4ExE7p1Uk/Q5MqFpgBjk6euzx3Lgi+V1RRvN7+l5JMxEBgvS6jBcy6hqOX/kv1VCh4wEFAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;service_catalog&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=437a73b8836c32105d6894b6feaad3ff^sys_idNOT IN537ab3b8836c32105d6894b6feaad333"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Create Incident from Submit IT Issue"&gt;437a73b8836c32105d6894b6feaad3ff&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;show_stages&gt;false&lt;/show_stages&gt;&lt;subflow display_value="SF - Create Incident from Catalog Item"&gt;47b33370836c32105d6894b6feaad3dc&lt;/subflow&gt;&lt;subflow_inputs&gt;H4sIAAAAAAAA/+2XTU/jMBCG/0vOTZXESRxzW4GQVtpdJFi4IBRNbKe15HyQOHws4r/vuEnbFCgUqXBA3OpJbL/zzjyd9vLBUcI5cHieEUKol5CYk8D3IhEnLMziXAIIIsGZOCUUEt9UJuVg5Kxq7jF4A7qzUfwoVFtruL9YR/hcadHI0jm4vJo4NTR4gpGNc/Dw5NGuEjRkUj/T8KIwc1/bYGsaVc6G9a9h+9kyWDXCyvEnjrwzshQSdeSgWzlxCigFGHvWMtJIECelXgfmqjR9ogXcteof3pd4nmffzCXmxgcbVst0sKgP50dgAKV03HTNyrFKcdn2rgiZQ6fN4TjWv3BSG1WV/RYDmV7urnRXlH96O5zVAaOKdC2KkLVN1WofEsnP5tXt6VLlsSoXrgwPdcVBr1Zg0LusM1bPg9Opv09s7iPPjJZaFnhjWkBdYyStm+pGLW5B0cV0pnExzXV1i+paNSunwG2GUywBTI8xfrQIX0CjbLq/8RjcbK87L9V1J3/aBgqySEQJhC71WeCG4FE3YTx0ReBFMo9jIQLfeZw47X17qKFt10ZhhdLrzqbZ2zYYlPYe2y28UbX5gaJu5ODF42RAxyOv9W3ONjoU01scZcu3V3p2UDGiZ1PGNnnvYSj4ZugrMCQSGvkCofEJzdxQMN9ljMauHzMIA49HzA8/gKHo1e/+PN9o0q6Zocd7nj47KBjxs5bwkqz3cEO+ufkK3HjgBUnCfUQmI5abyGXSxynEKA04RCzGFto/Nwy/9enWrvXJukEbiVJbI0WaV81+0dlBxBKdpyq2iBsAWvfyJkOno/iAUbg3jEiwCRFWLMXWbbbAdN4/2jNQo0s/Aaz8TELD58dKalvPRVG24jYuyiZx47J8CnScAAsE/tbD9gM3DBPussBPXAZxllDiUUKijxhW9NV+Fy/1tTKySG1Vldjz3HpbzHP4NtW8IfY90yz6nmZfYZolAQ8ZNpQLWcDdUNLczagX4t8pGgjBqEj8bI9gXf0HuZ/vmIYQAAA=&lt;/subflow_inputs&gt;&lt;sys_class_name&gt;sys_hub_sub_flow_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:23&lt;/sys_created_on&gt;&lt;sys_id&gt;537ab3b8836c32105d6894b6feaad333&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:23&lt;/sys_updated_on&gt;&lt;ui_id&gt;edea1fb1-d6ca-454a-8584-d58ba047e27e&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;wait_for_completion&gt;true&lt;/wait_for_completion&gt;&lt;/sys_hub_sub_flow_instance_v2&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:22&lt;/sys_created_on&gt;&lt;sys_id&gt;177ab3b8836c32105d6894b6feaad32b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:22&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:22&lt;/sys_created_on&gt;&lt;sys_id&gt;c77ab3b8836c32105d6894b6feaad324&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="IT Helpdesk"&gt;4349ebc88320b2105d6894b6feaad38d&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:22&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_437a73b8836c32105d6894b6feaad3ff"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;33d205548328b2105d6894b6feaad323&lt;/sys_id&gt;&lt;latest_snapshot&gt;437a73b8836c32105d6894b6feaad3ff&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-zurich-07-01-2025__patch1-08-20-2025_09-08-2025_1328.zip&lt;/compiler_build&gt;&lt;version_record/&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=33d205548328b2105d6894b6feaad323^sys_idNOT IN5b7ab3b8836c32105d6894b6feaad33d"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.RunAlways&lt;/binding_strategy&gt;&lt;plan&gt;{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5b7ab3b8836c32105d6894b6feaad33d","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;33d205548328b2105d6894b6feaad323&lt;/plan_id&gt;&lt;snapshot&gt;68dbf73c836c32105d6894b6feaad39e&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-10 15:42:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5b7ab3b8836c32105d6894b6feaad33d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-10 15:42:23&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;537ab3b8836c32105d6894b6feaad33d&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=33d205548328b2105d6894b6feaad323"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1666058571</payload_hash>
+        <record_name>Create Incident from Submit IT Issue</record_name>
+        <reverted_from/>
+        <source>588ba978832032105d6894b6feaad30e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 16:09:57</sys_created_on>
+        <sys_id>8fc0ccc183ac32105d6894b6feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199cee2d9d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:09:57</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>c3c0ccc19bac32100300f6423a03b442</update_guid>
+        <update_guid_history>c3c0ccc19bac32100300f6423a03b442:-1666058571,362df7bcbf6c321094a9f13036bbc0e2:1225320844,311db7bc436c3210ba276728e35d8851:383886139,fd0d37bce36c3210ec17e5233951aaeb:-1305574377,f0fcf3bcd56c3210b1ec9303b3104702:-629409941,06ea33f8276c32104785316bb74c69ba:888309900,d37ab3b83a6c32102d58af741417b649:285577604,0f7a73b8876c3210f3153697e02309f3:543863060,ec1a7b78cd6c3210a2a852b5df584a23:-1220378245,0fe977789f6c321088c915ecd309af9e:-1516338843,47b97378d06c3210ec94308f6c51f64d:1250086584,d839b738cd6c3210d846aa2fe6a36c93:1701951321,21193738e46c321039609a8c3a07c233:-1505742129,05c67774026c3210bc7f0d2bc2ede08c:1218449887,fb76ff347d6c3210baa820b0a90956f2:-74489021,8206b734746c321049ef760aef600e88:-1977150718,cec07e3864e43210a90092fa261abdcb:0,7c66a6fc81643210fda19e9c51e76408:-1106696304,bc7992bc5024321000bd0c881ce10670:-1176605637,8c1a35fcea603210c994ce512c237f7f:52244161,0d2e2d7c05203210b42bcfd20a18096b:-163618380,f7d241944828b2107cc8d6b7d06fd0c4:1513469592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 16:10:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>38c30111822143b19538ccaf65b5ff01</sys_id>
+        <sys_metadata>33d205548328b2105d6894b6feaad323</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Incident from Submit IT Issue</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_scope_delete display_value="">2deee8c0dbd94c5689898657ffe5f544</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_33d205548328b2105d6894b6feaad323</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_33d205548328b2105d6894b6feaad323">8fc0ccc183ac32105d6894b6feaad342</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 16:10:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

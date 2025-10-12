@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Submit IT Issue">71f4605c8364b2105d6894b6feaad33e</sc_cat_item>
+        <sc_category display_value="Help Desk">9262e01183a4b2105d6894b6feaad3bb</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-11 13:16:07</sys_created_on>
+        <sys_id>ee92a41183a4b2105d6894b6feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Help Desk.Submit IT Issue</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name>sc_cat_item_category_ee92a41183a4b2105d6894b6feaad35d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-11 13:16:07</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
