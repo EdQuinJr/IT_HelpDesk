@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="IT Helpdesk — Overview">e2b75b83836432105d6894b6feaad35e</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_1604622_it_hel_0.itil_admin" name="x_1604622_it_hel_0.itil_admin">db49ebc88320b2105d6894b6feaad3a9</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 13:00:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e981747836432105d6894b6feaad387</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>e2b75b83836432105d6894b6feaad35e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name>par_dashboard_permission_7e981747836432105d6894b6feaad387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 13:03:39</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

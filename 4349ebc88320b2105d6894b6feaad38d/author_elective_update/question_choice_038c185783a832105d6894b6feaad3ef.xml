@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="What type of issue are you reporting?">dbb3341083e4b2105d6894b6feaad33b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 17:57:48</sys_created_on>
+        <sys_id>038c185783a832105d6894b6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mobile</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name>question_choice_038c185783a832105d6894b6feaad3ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 17:57:48</sys_updated_on>
+        <text>Mobile</text>
+        <value>mobile</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=038c185783a832105d6894b6feaad3ef"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</application>
+        <file_path/>
+        <instance_id>70a900d01b96fdd439a54089bd4bcb0f</instance_id>
+        <instance_name>dev198543</instance_name>
+        <name>question_choice_038c185783a832105d6894b6feaad3ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="What type of issue are you reporting?">dbb3341083e4b2105d6894b6feaad33b</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-17 17:57:48</sys_created_on><sys_id>038c185783a832105d6894b6feaad3ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mobile</sys_name><sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package><sys_policy/><sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope><sys_update_name>question_choice_038c185783a832105d6894b6feaad3ef</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-17 17:57:48</sys_updated_on><text>Mobile</text><value>mobile</value></question_choice><fx_price action="delete_multiple" query="id=038c185783a832105d6894b6feaad3ef"/></record_update>]]></payload>
+        <payload_hash>-2124594974</payload_hash>
+        <record_name>Mobile</record_name>
+        <reverted_from/>
+        <source>588ba978832032105d6894b6feaad30e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 17:57:48</sys_created_on>
+        <sys_id>5f9c54df83a832105d6894b6feaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199f3521ab30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 17:57:48</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>d39c54dfc5a832106941bd3758548eb1</update_guid>
+        <update_guid_history>d39c54dfc5a832106941bd3758548eb1:-2124594974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mobile">a3bd905383e832105d6894b6feaad3e2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 18:02:44</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>4f22e4c52ad447b4a9c526ef2af22990</sys_id>
+        <sys_metadata>038c185783a832105d6894b6feaad3ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mobile</sys_name>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_parent display_value="What type of issue are you reporting?">dbb3341083e4b2105d6894b6feaad33b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_scope_delete display_value="">2deee8c0dbd94c5689898657ffe5f544</sys_scope_delete>
+        <sys_update_name>question_choice_038c185783a832105d6894b6feaad3ef</sys_update_name>
+        <sys_update_version display_value="question_choice_038c185783a832105d6894b6feaad3ef">5f9c54df83a832105d6894b6feaad3b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 18:02:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

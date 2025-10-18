@@ -41,13 +41,13 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>it_category</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>300</order>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -82,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-08 12:00:18</sys_created_on>
         <sys_id>dbb3341083e4b2105d6894b6feaad33b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>What type of issue are you reporting?</sys_name>
         <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
         <sys_update_name>item_option_new_dbb3341083e4b2105d6894b6feaad33b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 12:30:46</sys_updated_on>
+        <sys_updated_on>2025-10-17 17:23:04</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

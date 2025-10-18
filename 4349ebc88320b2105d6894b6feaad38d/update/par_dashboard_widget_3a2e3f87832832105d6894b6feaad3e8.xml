@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">f2b75307836432105d6894b6feaad366</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1j7pcj5fconcucvjis0s","filterName":"Date range","filterComponentType":"date","datasource":{},"targets":[{"type":"table","payload":{"field":"opened_at","table":"incident","primaryKey":"sys_id"}}],"allowedDateRanges":[{"range":"SN_DYNAMIC_DATERANGE__LAST_3_MONTH","label":"Last 3 months"},{"range":"SN_DYNAMIC_DATERANGE__LAST_6_MONTH","label":"Last 6 months"},{"range":"SN_DYNAMIC_DATERANGE__LAST_7_DAYS","label":"Last 7 days"},{"range":"SN_DYNAMIC_DATERANGE__LAST_MONTH","label":"Last month"},{"range":"SN_DYNAMIC_DATERANGE__LAST_YEAR","label":"Last year"},{"range":"SN_DYNAMIC_DATERANGE__TODAY","label":"Today"},{"range":"SN_DYNAMIC_DATERANGE__YTD","label":"YTD"}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"76b75307836432105d6894b6feaad34a","isDashboard":true,"isGroup":false,"value":[]}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 15:44:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3a2e3f87832832105d6894b6feaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
+        <sys_update_name>par_dashboard_widget_3a2e3f87832832105d6894b6feaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 15:44:47</sys_updated_on>
+        <visualization/>
+        <w>3</w>
+        <widget_props/>
+        <x>41</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
