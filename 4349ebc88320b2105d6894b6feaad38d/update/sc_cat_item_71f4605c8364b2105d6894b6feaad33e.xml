@@ -54,7 +54,7 @@
         <recurring_price>0</recurring_price>
         <request_method>submit</request_method>
         <roles/>
-        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs>3ad5649c8364b2105d6894b6feaad30c,e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -66,21 +66,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-08 10:54:22</sys_created_on>
         <sys_id>71f4605c8364b2105d6894b6feaad33e</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>Submit IT Issue</sys_name>
         <sys_package display_value="IT Helpdesk" source="x_1604622_it_hel_0">4349ebc88320b2105d6894b6feaad38d</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT Helpdesk">4349ebc88320b2105d6894b6feaad38d</sys_scope>
         <sys_update_name>sc_cat_item_71f4605c8364b2105d6894b6feaad33e</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-10-17 18:19:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-18 14:25:15</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>51</version>
+        <version>53</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
