@@ -19,7 +19,7 @@ To create a simple yet functional IT Helpdesk system that demonstrates how Servi
 ✅ **Submit IT Issue Catalog Item** — Users can submit issues specifying category, urgency, and description.  
 ✅ **Automated Assignment Flow** — Tickets are automatically assigned based on the selected category.  
 ✅ **SLA Rule (4 Hours)** — High-priority tickets escalate if unresolved within 4 hours.  
-✅ **Email Notification** — Automatic email alert sent to the Escalation Team upon SLA breach.  
+✅ **Email Notification** — Automatic email alert sent automatically to assigned based on the selected category and to the Escalation Team upon SLA breach.  
 ✅ **Dashboard Reporting** — Visual insights for open vs resolved tickets and SLA metrics.  
 ✅ **Work Notes Automation** — Logs key system updates automatically for transparency.
 
