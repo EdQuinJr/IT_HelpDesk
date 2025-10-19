@@ -137,7 +137,9 @@ The dashboard provides:
 - Expand **SLA tiers** (e.g., Medium = 8h, Low = 24h).  
 - Implement **approval workflow** for change-type requests.  
 
----
+**[Edgar Quindao Jr. ]** — Aspiring ServiceNow Developer | ITSM Enthusiast  
+📧 Contact: [quindaoedgar122217@gmail.com]  
+🔗 LinkedIn: [https://www.linkedin.com/in/edgar-quindao-jr-31a934301/]  
+🔗 GitHub: [https://github.com/EdQuinJr] 
 
-## 📁 Repository Contents
 
